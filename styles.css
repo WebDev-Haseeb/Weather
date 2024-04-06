@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(./images/background.png) no-repeat center center fixed;
+    background-size: cover;
+
+    font-family: "Poppins", sans-serif;
+    color: #40679e;
+}
+
+.first_heading {
+    margin: 5vh 5vw;
+}
+
+.first_heading span {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_container h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.main_container span {
+    color: #424242;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+}
+
+.search_container {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_container button {
+    display: flex;
+    background-color: #40679e;
+    border: none;
+    padding: 15px 120px;
+    border-radius: 50px;
+
+    box-shadow: 0px 0px 3px 0px #666666;
+}
+
+.search_container img {
+    width: 13px;
+}
+
+.search_container span {
+    margin-left: 0.7vw;
+    color: white;
+}
+
+.upper_navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5vh;
+}
+
+.img_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue_part {
+    width: 90vw;
+    height: 10vh;
+    background-color: #40679e;
+    display: flex;
+    justify-content: space-between;
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.left {
+    display: flex;
+}
+
+.blue_part .date_day {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blue_part .date_day span {
+    margin-left: 3vw;
+    margin-right: 2vw;
+    color: white;
+    text-align: center;
+}
+
+.date_day .day {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.date_day .date {
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather img {
+    width: 30px;
+}
+
+.weather span {
+    color: white;
+    font-size: 0.8rem;
+}
+
+.conditions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.condition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conditions img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.conditions span {
+    color: white;
+    font-size: 0.8rem;
+    margin-right: 1.5vw;
+}
+
+
+
+
+.white_part {
+    width: 90vw;
+    height: 43vh;
+    margin-bottom: 5vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.day_wise_conditions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    margin-top: 2vh;
+}
+
+.conditions_day {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.conditions_date {
+    font-size: 0.6rem;
+}
+
+.condition_image {
+    margin-top: 1vh;
+    width: 40px;
+}
+
+.cond {
+    text-align: center;
+
+}
+
+.conditions_condition {
+    font-size: 1.1rem;
+    margin-bottom: 2vh;
+}
+
+.sub_condition {
+    display: flex;
+    margin-bottom: 2vh;
+}
+
+.sub_condition span {
+    font-size: 0.7rem;
+    font-weight: 700;
+    margin-left: 0.5vw;
+    text-align: right;
+}
