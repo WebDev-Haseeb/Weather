@@ -38,6 +38,8 @@ body {
     letter-spacing: 1px;
 }
 
+
+
 .search_container {
     margin-top: 2vh;
     display: flex;
@@ -47,29 +49,33 @@ body {
 
 .search_container button {
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
     background-color: #40679e;
     border: none;
-    padding: 15px 120px;
+    padding: 15px 250px 15px 30px;
     border-radius: 50px;
-
     box-shadow: 0px 0px 3px 0px #666666;
 }
 
 .search_container img {
     width: 13px;
+    margin-right: 10px;
 }
 
 .search_container span {
-    margin-left: 0.7vw;
+    margin-left: 0;
     color: white;
 }
+
+
 
 .upper_navbar {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 5vh;
-    margin-bottom: 1vh;
+    margin-top: 7vh;
+    margin-bottom: 2vh;
 }
 
 .img_text {
@@ -168,7 +174,7 @@ body {
 .white_part {
     width: 90vw;
     height: 43vh;
-    margin-bottom: 5vh;
+    margin-bottom: 2vh;
     background-color: white;
     display: flex;
     justify-content: space-between;
