@@ -72,7 +72,7 @@ body {
 
 .upper_navbar {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin-top: 7vh;
     margin-bottom: 2vh;
@@ -82,6 +82,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0vh 1vw;
 }
 
 .container {
@@ -92,7 +93,7 @@ body {
 }
 
 .blue_part {
-    width: 90vw;
+    width: 93vw;
     height: 10vh;
     background-color: #40679e;
     display: flex;
@@ -146,6 +147,7 @@ body {
 }
 
 .conditions {
+    margin-right: 2vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -172,7 +174,7 @@ body {
 
 
 .white_part {
-    width: 90vw;
+    width: 93vw;
     height: 43vh;
     margin-bottom: 2vh;
     background-color: white;
