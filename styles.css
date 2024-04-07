@@ -81,7 +81,7 @@ body {
     color: white;
     font-size: 1rem;
     padding: 0 10px;
-    width: 300px;
+    width: 330px;
 
     font-family: Manrope;
     font-size: 16px;
@@ -108,7 +108,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 7.5vh;
+    margin-top: 9vh;
     margin-bottom: 2vh;
 }
 
