@@ -8,12 +8,27 @@ body {
     background-size: cover;
 
     font-family: "Manrope", sans-serif;
-    color: #40679e;
+    color: #40679E;
 }
 
+
 .first_heading {
-    margin: 2vh 2vw;
     font-family: "Roboto Mono", monospace;
+
+    width: 307px;
+    height: 42px;
+    margin-top: 30px;
+    margin-left: 47px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: Roboto Mono;
+    font-size: 32px;
+    font-weight: bolder;
+    line-height: 42.2px;
+    letter-spacing: 0.04em;
+    text-align: left;
+
 }
 
 .first_heading span {
@@ -44,9 +59,6 @@ body {
 
 .search_container {
     margin-top: 2vh;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 .search-input-container {
@@ -70,6 +82,14 @@ body {
     font-size: 1rem;
     padding: 0 10px;
     width: 300px;
+
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.86px;
+    letter-spacing: 0.06em;
+    text-align: left;
+
 }
 
 ::placeholder {
@@ -193,12 +213,12 @@ body {
 
 .white_part {
     width: 93vw;
-    height: 43vh;
+    height: 40vh;
     margin-bottom: 2vh;
     background-color: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: space-between;
 
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
