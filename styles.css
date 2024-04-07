@@ -69,7 +69,7 @@ body {
     color: white;
     border: none;
     outline-style: none;
-    padding: 10px 30px;
+    padding: 12px 30px;
     border-radius: 50px;
     box-shadow: 0px 0px 3px 0px #666666;
 }
@@ -132,7 +132,7 @@ body {
 
 .blue_part {
     width: 93vw;
-    height: 10vh;
+    height: 11vh;
     background-color: #40679e;
     display: flex;
     justify-content: space-between;
