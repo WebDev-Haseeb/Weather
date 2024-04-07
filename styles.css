@@ -42,30 +42,42 @@ body {
 
 .search_container {
     margin-top: 2vh;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
-.search_container button {
+.search-input-container {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
+    justify-content: center;
     background-color: #40679e;
+    color: white;
     border: none;
-    padding: 15px 300px 15px 30px;
+    outline-style: none;
+    padding: 15px 30px;
     border-radius: 50px;
     box-shadow: 0px 0px 3px 0px #666666;
 }
 
-.search_container img {
-    width: 13px;
-    margin-right: 10px;
+.search-input-container input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+    padding: 0 10px;
+    width: 300px;
 }
 
-.search_container span {
-    margin-left: 0;
+::placeholder {
     color: white;
+}
+
+.search-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
